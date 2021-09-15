@@ -1,6 +1,6 @@
 from funcionario import Funcionario
 
-nome = input('Digite o nome do primeiro funcionário: ')
+nome = input('\nDigite o nome do primeiro funcionário: ')
 salario = float(input('Digite o salário do primeiro funcionário: '))
 
 funcionario1 = Funcionario(nome,salario)
@@ -12,4 +12,4 @@ funcionario2 = Funcionario(nome,salario)
 
 funcionarios = [funcionario1,funcionario2]
 
-print(Funcionario.salarioMedio(funcionarios))
+Funcionario.salarioMedio(funcionarios)

@@ -5,7 +5,7 @@ class Pessoa:
         self.idade = idade
     
     def __str__(self):
-        return '\nNome: '+str(self.nome + '\nIdade: ')+str(self.idade)
+        return 'Nome: '+str(self.nome + '\nIdade: ')+str(self.idade)+str('\n')
 
     def setNome(self, nome):
         self.nome = nome
